@@ -79,6 +79,11 @@
             padding-top: 50px;
         }
     }
+    .footer-wrapper{
+        flex-wrap: wrap;
+      
+    }
+   
 }
 @media (max-width:1240px ) and (min-width:1024px) {
     .logo-icon {
@@ -88,6 +93,7 @@
         top: 50%;
         transform: translateY(-50%);
     }
+  
     .why-choose-wrapper {
         background-size: 86% auto;
     }
@@ -161,6 +167,7 @@
     // ?=============== HERO SECTION CSS START ===============
     .call-details-box {
         width: 100%;
+       
     }
     .zic-underline {
         &::after {
@@ -227,10 +234,7 @@
         background: #1F1F1F;
         padding: 40px 0;
     }
-    .footer-wrapper{
-        flex-wrap: wrap;
-      
-    }
+  
     .description-box-footer {
         width: 100%;
         img{

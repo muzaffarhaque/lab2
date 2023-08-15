@@ -72,6 +72,9 @@
   .content-cards-wrapper .colum2 {
     padding-top: 50px;
   }
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 1240px) and (min-width: 1024px) {
   .logo-icon {
@@ -189,9 +192,6 @@
   .footer-sesction {
     background: #1F1F1F;
     padding: 40px 0;
-  }
-  .footer-wrapper {
-    flex-wrap: wrap;
   }
   .description-box-footer {
     width: 100%;

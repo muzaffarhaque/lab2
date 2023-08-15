@@ -38,6 +38,9 @@ body {
     outline: none;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .black-2f2 {
     color: #2F2F2F;
@@ -199,6 +202,7 @@ body {
 .call-details-box {
     width: 80%;
     max-width: 440px;
+    // min-width: 400px;
     padding: 26px 40px 26px 20px;
     border-radius: 34px;
     background: #FFF;
